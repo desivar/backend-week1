@@ -14,7 +14,7 @@ const app = express();
 
 // Import routes
 const staticRoutes = require("./routes/static");
-const inventoryRoutes = require("./routes/inventoryRoute");
+
 
 // View engine setup
 app.set("view engine", "ejs");
